@@ -15,15 +15,15 @@ This is my first foray into Natural Language Processing and - surprise - I'm lik
 
 ## Implementation intentions:
 Even though the size of my bookmarks 'dataset' is far from astronomical (~30,000 lines), fixing the \
-problem misclassification 'by hand' is out of the question. what I want to find is a generative solution:\
+problem misclassification 'by hand' is out of the question. What I want to find is a generative solution:\
 an algorithm that will propose/output a better classification in the form of a folder structure.
 	
 Before claiming a general solution, I want to fix a more narrow problem: How to cleanup my Chrome \
 browser bookmarks? In other words, how to 're-classified' my Chrome browser bookmarks into the \
 exisitng subgroups I have created, or into new ones if necessary? \
 With a few modifications, the solution can be extended to cleanup one's misclassified Internet 
-Explorer Favorites folders or a library of *meaningfully* titled files (if a 'minimal implementation' \
-is sufficient).
+Explorer Favorites folders or a library of *meaningfully* titled files, in case the 'minimal \
+implementation' (described further down), is sufficient.
 
 ## Raw input: Chrome Bookmarks file
 
@@ -77,6 +77,7 @@ Phase I:
 
 ##A. Minimal implementation:
 ### 1. Process Chrome bookmarks file
+> [Progress workbook](https://github.com/Sylatac/NLP_ChromeBookmarksCleanup_Project_PhaseI/blob/master/Bookmarks_Phase_I.ipynb)
 ### 2. Define 'good enough outcome' and ways to test it
 ### 3. Apply some classification algorithms on the output of Step 1
 ### 4. Evaluate on path-labeled and path_unlabeled data (for comparison with new classification)
