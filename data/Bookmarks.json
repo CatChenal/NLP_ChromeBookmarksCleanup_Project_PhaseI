@@ -1,0 +1,28 @@
+[ {'countries':'North Hemisphere'}, 
+       {'Members': [{'country':'USA'},
+                        {'components': [ {'state': 'Florida', 
+                                        'shortname': 'FL',
+                                        'info': { 'governor': 'Rick Scott' },
+                                        'counties': [{'name': 'Dade', 'population': 12345},
+                                                  {'name': 'Broward', 'population': 40000},
+                                                  {'name': 'Palm Beach', 'population': 60000}]},
+                                        {'state': 'Ohio',
+                                         'shortname': 'OH',
+                                         'info': {'governor': 'John Kasich'},
+                                         'counties': [{'name': 'Summit', 'population': 1234},
+                                                      {'name': 'Cuyahoga', 'population': 1337}]}]
+                         },
+                    {'country':'France'},
+                         {'components': [ {'state': 'Bretagne', 
+                                         'shortname': 'bre',
+                                         'info': { 'governor': 'Rick Marcel' },
+                                         'counties': [{'name': 'villeun', 'population': 12345},
+                                                      {'name': 'deux', 'population': 40000},
+                                                      {'name': 'trois', 'population': 60000}]},
+                                          {'state': 'Bourgogne',
+                                         'shortname': 'bou',
+                                         'info': {'governor': 'Martin Kasich'},
+                                         'counties': [{'name': 'bou1', 'population': 1234},
+                                                      {'name': 'bou2', 'population': 1337}]}]
+                         }]
+       }]
