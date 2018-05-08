@@ -9,7 +9,7 @@ exisitng category, i.e. "Clustering", or a new-one, "Anomaly Detection" would be
 efficient retrieval, which is the main purpose for classification in the first place. \
 Thus, this usage breakdown is best examplified by a common fall-back heuristic: "I'll cleanup later". \
 
-Well later is NOW! \
+Well later is NOW! <br>
 
 This is my first foray into Natural Language Processing and - surprise - I'm liking it!
 
@@ -25,14 +25,14 @@ With a few modifications, the solution can be extended to cleanup one's misclass
 Explorer Favorites folders or a library of *meaningfully* titled files (if a 'minimal implementation' \
 is sufficient).
 
-## Raw input: Chrome Bookmarks file\
+## Raw input: Chrome Bookmarks file
 
 > Note: the current bookmarks.json file in the project ./data folder holds dummy data for privacy reasons.
 
 Chrome holds a user's bookmarks in three folders whose subfolders are called children:
- a. Bookmarks bar
- b. Other bookmarks
- c. Mobile bookmarks
+  a. Bookmarks bar
+  b. Other bookmarks
+  c. Mobile bookmarks
 
 The "Bookmarks bar" and "Mobile bookmarks" folders will not be used as I have not created any \
 subcategories/subfolders in them.\
@@ -88,3 +88,5 @@ Phase II:
 ### => To include web scraping data into word vector
 
 
+PS: The markdown line break character, "\" (backslash) has a stochastic behavior: it sometimes\
+works...
